@@ -1,0 +1,218 @@
+body#inicio {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url(ayrton-senna-1991.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1#tituloinicio{
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+}
+
+h1#decargarpdf{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+body#Nascar{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fdfbea;
+}
+
+body#Formula1{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fdfbea;
+}
+
+body#Rally {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fdfbea;
+}
+
+h1#Nascar{
+  text-align: center;
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#Formula1 {
+  text-align: center;
+  color: chocolate;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#Rally {
+  text-align: center;
+  color: rgb(153, 73, 24);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div#fotosnascar{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente (si hay altura suficiente) */
+  margin-top: 40px;
+}
+
+div#fotosnascar2{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  object-fit: cover;  
+}
+
+div#fotosformula1{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                 
+  margin-top: 40px;  
+  width: 200px;       
+  height: 150px;     
+  
+
+}
+
+div#fotosformula2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  object-fit: cover;  
+}
+
+div#fotosrally{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente (si hay altura suficiente) */
+  margin-top: 40px;
+}
+
+div#fotosrally2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  object-fit: cover;  
+  
+}
+
+div#textofotosnascar1{
+  
+  text-align: center;
+}
+
+div#textofotosnascar2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+div#textofotosformula1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+div#textofotos2formula1{
+  text-align: center;
+}
+
+div#textofotorally{
+
+  text-align: center;
+}
+
+div#textofotosrally2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+main {
+  flex: 1; /* Empuja el footer al fondo */
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: burlywood;
+  color: white;
+}
+
+header{
+  background-color: bisque;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+
+section{
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+}
+
+footer{
+  grid-column: 1/4;
+  text-align: center;
+}
+
+p{
+  background-color: burlywood;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 20px;
+  transition: 1s;
+}
+
+p:hover{
+background-color: chocolate;
+}
+
+p:active{
+  background-color: rgb(161, 87, 44);
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
